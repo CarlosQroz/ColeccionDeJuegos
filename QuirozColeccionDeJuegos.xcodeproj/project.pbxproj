@@ -14,6 +14,7 @@
 		486FA21928FDDED200E6E00C /* QuirozColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 486FA21728FDDED200E6E00C /* QuirozColeccionDeJuegos.xcdatamodeld */; };
 		486FA21B28FDDED300E6E00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486FA21A28FDDED300E6E00C /* Assets.xcassets */; };
 		486FA21E28FDDED300E6E00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486FA21C28FDDED300E6E00C /* LaunchScreen.storyboard */; };
+		486FA22628FDEDB200E6E00C /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486FA22528FDEDB200E6E00C /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		486FA21A28FDDED300E6E00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486FA21D28FDDED300E6E00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486FA21F28FDDED300E6E00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486FA22528FDEDB200E6E00C /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 				486FA20C28FDDED200E6E00C /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		486FA20C28FDDED200E6E00C /* Products */ = {
 			isa = PBXGroup;
@@ -62,6 +65,7 @@
 				486FA21028FDDED200E6E00C /* SceneDelegate.swift */,
 				486FA21228FDDED200E6E00C /* ViewController.swift */,
 				486FA21428FDDED200E6E00C /* Main.storyboard */,
+				486FA22528FDEDB200E6E00C /* JuegosViewController.swift */,
 				486FA21A28FDDED300E6E00C /* Assets.xcassets */,
 				486FA21C28FDDED300E6E00C /* LaunchScreen.storyboard */,
 				486FA21F28FDDED300E6E00C /* Info.plist */,
@@ -141,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486FA22628FDEDB200E6E00C /* JuegosViewController.swift in Sources */,
 				486FA21328FDDED200E6E00C /* ViewController.swift in Sources */,
 				486FA20F28FDDED200E6E00C /* AppDelegate.swift in Sources */,
 				486FA21128FDDED200E6E00C /* SceneDelegate.swift in Sources */,
